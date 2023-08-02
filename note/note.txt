@@ -1,0 +1,95 @@
+varibale : is containe stores data in a memory location.
+
+some rules of variable :
+1) variable starts with dollar sign ($) and followed by the name of the variable.
+2) variable starts starts with charecters , underscode and also not start a number.
+3) variable contain alpha-numerical and underscode.
+4) variable is a case sensative
+
+scope of variables :
+1) local scope variable : is variable created inside blocks and only can access inside this block.
+2) global scope variable : is variable created outside block and only  can access inside out block.
+3) static scope variable :  =================== ?
+
+data types
+ 
+1)String data type : is a sequence charecters inside within double quotes.
+
+Some string function :
+ 
+1)strlen() : is the predefined function that return the length of string that passed.
+eg $f_name = "miirshe"  echo strlen($f_name);
+2)strrev() : is the predefined function that return the reverse word of string
+eg $f_name = "miirshe"  echo strrev()($f_name);
+3)str_word_count() : is the function that return the count number of words that you have .
+eg $full_name = "Abdikafi Isse Isak"; echo str_word_count($full_name);
+4)strpos() : is the function that return the position of each word that you may have and takes two argument first is the variable that has words and the second is word that you may target.
+eg $full_name = "Abdikafi Isse Isak"; echo strpos($full_name, "Isse");
+5)str_replace() : is the function that replace original value.
+eg $full_name = "Abdikafi Isse Isak"; echo str_replace($full_name, "younis mohamed abukar",$full_name);
+
+
+2)Integer data type : is the non decimal number point.
+
+Some Predefined constants variable integer :
+
+1)PHP_INT_MAX : return lagest values integer.
+2)PHP_INT-MIN : return smallest values integer.
+3)PHP_INT_SIZE : return the size of the value integer bytes.
+
+Function that check if the variable is a Integer : 
+
+1)is_int()   2)is_integer()  3)is_long()
+
+
+3)Float data type : is the decimal number point.
+
+Some Predefined constants variables integer : 
+
+1)PHP_FLOAT_MAX : return the largest value of float numbers.
+2)PHP_FLOAT_MIN : return the smallest value of float numbers.
+3)PHP_FLOAT_DEG : return the rounded decimal number point without any precision loss.
+4)PHP_FLOAT_EPSILON : return the smallest values of representable positive float numbers.
+
+Function that check if the variable is a Float :
+
+1)is_float()    2)is_double()
+
+4)Null data type : is the special data type that allows you to create variable without any value and assign to the value
+5)Arrays data type : stores multiple data in a single variable 
+6)resource data type : is not actual data type but is a resource data type like database calls and also other
+
+note -2
+
+today summery 
+-----------------------
+1 php: php is scripting language  which mostly runs on the web server 
+
+2) xamp: since php is scripting language which runs on the web server  , we need a local server and that local server is xamp 
+
+structure of xamp:
+------------------------
+mysql : You need to active this  when you want to use a database 
+apache server :  Web server, Apache is responsible for accepting directory (HTTP) requests from Internet users and sending them their desired information in the form of files and Web pages.
+ 
+hotdocs :  where apache webserver looks your php files to run on the server 
+
+echo :   fucntion that is used to print output 
+echo with a single quote will ignore your  variables 
+echo with a double quote will not ignore variables with prefix $
+echo can output   multiple string  
+
+print : functin that is used to print your ouput 
+prnt  can output only one string 
+print with a single quote will ignore your  variables 
+print with a double quote will not ignore variables with prefix $
+
+line  Break 
+----------------
+<br> : is used to break the line 
+nl2br : is a fucntion that is used to break   line  takes two argument 
+
+$variable   : its is for storing  a value to the memory 
+array : is used for storing multiple  values 
+var__dum:    displays structured information about type and value 
+print_r : is similar to var_dump but it is human readable
