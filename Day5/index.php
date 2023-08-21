@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funcaton</title>
+    <title>Funcaton and oop </title>
 </head>
 
 <body>
@@ -47,35 +47,35 @@
 
 
 
-    class People {
-        // These are the class properties
-        public $name;
-        public $country;
+    // class People {
+    //     // These are the class properties
+    //     public $name;
+    //     public $country;
         
-        // These are the class methods
-        function set_name($name) {
-            $this->name = $name;
-        }
-        function get_name() {
-            return $this->name;
-        }
-        function set_country($country) {
-            $this->country = $country;
-        }
-        function get_country() {
-            return $this->country;
-        }
-    }
+    //     // These are the class methods
+    //     function set_name($name) {
+    //         $this->name = $name;
+    //     }
+    //     function get_name() {
+    //         return $this->name;
+    //     }
+    //     function set_country($country) {
+    //         $this->country = $country;
+    //     }
+    //     function get_country() {
+    //         return $this->country;
+    //     }
+    // }
     
-    // new instance of the People() class
-    $alex = new People();
-    // called the methods of the class
-    $alex->set_name('Ali Omar');
-    $alex->set_country('Somalia');
-    // accessing the object properties
-    echo "Name: " . $alex->get_name();
-    echo "<br>";
-    echo "Country: " . $alex->get_country();
+    // // new instance of the People() class
+    // $alex = new People();
+    // // called the methods of the class
+    // $alex->set_name('Ali Omar');
+    // $alex->set_country('Somalia');
+    // // accessing the object properties
+    // echo "Name: " . $alex->get_name();
+    // echo "<br>";
+    // echo "Country: " . $alex->get_country();
 
    
 
